@@ -16,25 +16,5 @@ namespace BlocDeNotas
         {
             InitializeComponent();
         }
-
-        private void abrirToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void imprimirToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cortarToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void eliminarToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

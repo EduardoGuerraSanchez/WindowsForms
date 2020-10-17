@@ -28,57 +28,50 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.abrirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ventanaNuevaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.abrirToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.guardarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.guardarComoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nuevoCtrlNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ventanaNuevaCtrlMayusNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.abrirCtrlAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.guardarCtrlGToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.guardarComoCtrlMayusSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.configurarPaginaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.imprimirCtrlPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.edicionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.deshacerCtrlZToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cortarCtrlXToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.copiarCtrlCToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pegarCtrlVToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.eliminarSuprToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.busquedaConBingCtrlFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.buscarCtrlBToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.buscarSiguienteF3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.buscarAnteriorMayusF3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reemplazarCtrlRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.irACtrlTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.seleccionarTodoCtrlEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.horaYFechaF5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.formatoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.verToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.deshacerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cortarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.copiarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pegarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.eliminarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ajusteDeLineaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.formatoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.fuenteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.verToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zoomToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.barraDeEsadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.barraDeEstadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.verLaAyudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.enviarComentariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.configurarPáginaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.imprimirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.busquedaConBingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.buscarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.buscarSiguienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.buscarAnteriorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reemplazarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.irAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.seleccionarTodoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.horaYFechaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDelBlocDeNotasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(1, 37);
+            this.richTextBox1.Location = new System.Drawing.Point(5, 42);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(798, 412);
-            this.richTextBox1.TabIndex = 1;
+            this.richTextBox1.Size = new System.Drawing.Size(783, 396);
+            this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             // 
             // menuStrip1
@@ -86,98 +79,217 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.archivoToolStripMenuItem,
             this.edicionToolStripMenuItem,
-            this.verToolStripMenuItem,
             this.formatoToolStripMenuItem,
+            this.verToolStripMenuItem,
             this.ayudaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
-            this.menuStrip1.TabIndex = 2;
+            this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // archivoToolStripMenuItem
             // 
             this.archivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.abrirToolStripMenuItem,
-            this.ventanaNuevaToolStripMenuItem,
-            this.abrirToolStripMenuItem1,
-            this.guardarToolStripMenuItem,
-            this.guardarComoToolStripMenuItem,
-            this.configurarPáginaToolStripMenuItem,
-            this.imprimirToolStripMenuItem,
+            this.nuevoCtrlNToolStripMenuItem,
+            this.ventanaNuevaCtrlMayusNToolStripMenuItem,
+            this.abrirCtrlAToolStripMenuItem,
+            this.guardarCtrlGToolStripMenuItem,
+            this.guardarComoCtrlMayusSToolStripMenuItem,
+            this.configurarPaginaToolStripMenuItem,
+            this.imprimirCtrlPToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
             this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.archivoToolStripMenuItem.Text = "Archivo";
             // 
-            // abrirToolStripMenuItem
+            // nuevoCtrlNToolStripMenuItem
             // 
-            this.abrirToolStripMenuItem.Name = "abrirToolStripMenuItem";
-            this.abrirToolStripMenuItem.Size = new System.Drawing.Size(277, 22);
-            this.abrirToolStripMenuItem.Text = "Nuevo                                      Ctrl+N";
-            this.abrirToolStripMenuItem.Click += new System.EventHandler(this.abrirToolStripMenuItem_Click);
+            this.nuevoCtrlNToolStripMenuItem.Name = "nuevoCtrlNToolStripMenuItem";
+            this.nuevoCtrlNToolStripMenuItem.Size = new System.Drawing.Size(265, 22);
+            this.nuevoCtrlNToolStripMenuItem.Text = "Nuevo          Ctrl+N";
             // 
-            // ventanaNuevaToolStripMenuItem
+            // ventanaNuevaCtrlMayusNToolStripMenuItem
             // 
-            this.ventanaNuevaToolStripMenuItem.Name = "ventanaNuevaToolStripMenuItem";
-            this.ventanaNuevaToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
-            this.ventanaNuevaToolStripMenuItem.Text = "Ventana nueva          Ctrl+Mayus+N";
+            this.ventanaNuevaCtrlMayusNToolStripMenuItem.Name = "ventanaNuevaCtrlMayusNToolStripMenuItem";
+            this.ventanaNuevaCtrlMayusNToolStripMenuItem.Size = new System.Drawing.Size(265, 22);
+            this.ventanaNuevaCtrlMayusNToolStripMenuItem.Text = "Ventana nueva          Ctrl+Mayus+N";
             // 
-            // abrirToolStripMenuItem1
+            // abrirCtrlAToolStripMenuItem
             // 
-            this.abrirToolStripMenuItem1.Name = "abrirToolStripMenuItem1";
-            this.abrirToolStripMenuItem1.Size = new System.Drawing.Size(265, 22);
-            this.abrirToolStripMenuItem1.Text = "Abrir...                                       Ctrl+A";
+            this.abrirCtrlAToolStripMenuItem.Name = "abrirCtrlAToolStripMenuItem";
+            this.abrirCtrlAToolStripMenuItem.Size = new System.Drawing.Size(265, 22);
+            this.abrirCtrlAToolStripMenuItem.Text = "Abrir...          Ctrl+A";
             // 
-            // guardarToolStripMenuItem
+            // guardarCtrlGToolStripMenuItem
             // 
-            this.guardarToolStripMenuItem.Name = "guardarToolStripMenuItem";
-            this.guardarToolStripMenuItem.Size = new System.Drawing.Size(265, 22);
-            this.guardarToolStripMenuItem.Text = "Guardar                                     Ctrl+G";
+            this.guardarCtrlGToolStripMenuItem.Name = "guardarCtrlGToolStripMenuItem";
+            this.guardarCtrlGToolStripMenuItem.Size = new System.Drawing.Size(265, 22);
+            this.guardarCtrlGToolStripMenuItem.Text = "Guardar          Ctrl+G";
             // 
-            // guardarComoToolStripMenuItem
+            // guardarComoCtrlMayusSToolStripMenuItem
             // 
-            this.guardarComoToolStripMenuItem.Name = "guardarComoToolStripMenuItem";
-            this.guardarComoToolStripMenuItem.Size = new System.Drawing.Size(277, 22);
-            this.guardarComoToolStripMenuItem.Text = "Guardar como             Ctrl+Mayus+S";
+            this.guardarComoCtrlMayusSToolStripMenuItem.Name = "guardarComoCtrlMayusSToolStripMenuItem";
+            this.guardarComoCtrlMayusSToolStripMenuItem.Size = new System.Drawing.Size(265, 22);
+            this.guardarComoCtrlMayusSToolStripMenuItem.Text = "Guardar como...          Ctrl+Mayus+S";
+            // 
+            // configurarPaginaToolStripMenuItem
+            // 
+            this.configurarPaginaToolStripMenuItem.Name = "configurarPaginaToolStripMenuItem";
+            this.configurarPaginaToolStripMenuItem.Size = new System.Drawing.Size(265, 22);
+            this.configurarPaginaToolStripMenuItem.Text = "Configurar pagina...";
+            // 
+            // imprimirCtrlPToolStripMenuItem
+            // 
+            this.imprimirCtrlPToolStripMenuItem.Name = "imprimirCtrlPToolStripMenuItem";
+            this.imprimirCtrlPToolStripMenuItem.Size = new System.Drawing.Size(265, 22);
+            this.imprimirCtrlPToolStripMenuItem.Text = "Imprimir          Ctrl+P";
+            // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(265, 22);
+            this.salirToolStripMenuItem.Text = "Salir";
             // 
             // edicionToolStripMenuItem
             // 
             this.edicionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.deshacerToolStripMenuItem,
-            this.cortarToolStripMenuItem,
-            this.copiarToolStripMenuItem,
-            this.pegarToolStripMenuItem,
-            this.eliminarToolStripMenuItem,
-            this.busquedaConBingToolStripMenuItem,
-            this.buscarToolStripMenuItem,
-            this.buscarSiguienteToolStripMenuItem,
-            this.buscarAnteriorToolStripMenuItem,
-            this.reemplazarToolStripMenuItem,
-            this.irAToolStripMenuItem,
-            this.seleccionarTodoToolStripMenuItem,
-            this.horaYFechaToolStripMenuItem});
+            this.deshacerCtrlZToolStripMenuItem,
+            this.cortarCtrlXToolStripMenuItem,
+            this.copiarCtrlCToolStripMenuItem,
+            this.pegarCtrlVToolStripMenuItem,
+            this.eliminarSuprToolStripMenuItem,
+            this.busquedaConBingCtrlFToolStripMenuItem,
+            this.buscarCtrlBToolStripMenuItem,
+            this.buscarSiguienteF3ToolStripMenuItem,
+            this.buscarAnteriorMayusF3ToolStripMenuItem,
+            this.reemplazarCtrlRToolStripMenuItem,
+            this.irACtrlTToolStripMenuItem,
+            this.seleccionarTodoCtrlEToolStripMenuItem,
+            this.horaYFechaF5ToolStripMenuItem});
             this.edicionToolStripMenuItem.Name = "edicionToolStripMenuItem";
             this.edicionToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
             this.edicionToolStripMenuItem.Text = "Edicion";
+            // 
+            // deshacerCtrlZToolStripMenuItem
+            // 
+            this.deshacerCtrlZToolStripMenuItem.Name = "deshacerCtrlZToolStripMenuItem";
+            this.deshacerCtrlZToolStripMenuItem.Size = new System.Drawing.Size(248, 22);
+            this.deshacerCtrlZToolStripMenuItem.Text = "Deshacer          Ctrl+Z";
+            // 
+            // cortarCtrlXToolStripMenuItem
+            // 
+            this.cortarCtrlXToolStripMenuItem.Name = "cortarCtrlXToolStripMenuItem";
+            this.cortarCtrlXToolStripMenuItem.Size = new System.Drawing.Size(248, 22);
+            this.cortarCtrlXToolStripMenuItem.Text = "Cortar          Ctrl+X";
+            // 
+            // copiarCtrlCToolStripMenuItem
+            // 
+            this.copiarCtrlCToolStripMenuItem.Name = "copiarCtrlCToolStripMenuItem";
+            this.copiarCtrlCToolStripMenuItem.Size = new System.Drawing.Size(248, 22);
+            this.copiarCtrlCToolStripMenuItem.Text = "Copiar          Ctrl+C";
+            // 
+            // pegarCtrlVToolStripMenuItem
+            // 
+            this.pegarCtrlVToolStripMenuItem.Name = "pegarCtrlVToolStripMenuItem";
+            this.pegarCtrlVToolStripMenuItem.Size = new System.Drawing.Size(248, 22);
+            this.pegarCtrlVToolStripMenuItem.Text = "Pegar          Ctrl+V";
+            // 
+            // eliminarSuprToolStripMenuItem
+            // 
+            this.eliminarSuprToolStripMenuItem.Name = "eliminarSuprToolStripMenuItem";
+            this.eliminarSuprToolStripMenuItem.Size = new System.Drawing.Size(248, 22);
+            this.eliminarSuprToolStripMenuItem.Text = "Eliminar          Supr";
+            // 
+            // busquedaConBingCtrlFToolStripMenuItem
+            // 
+            this.busquedaConBingCtrlFToolStripMenuItem.Name = "busquedaConBingCtrlFToolStripMenuItem";
+            this.busquedaConBingCtrlFToolStripMenuItem.Size = new System.Drawing.Size(248, 22);
+            this.busquedaConBingCtrlFToolStripMenuItem.Text = "Busqueda con Bing...          Ctrl+F";
+            // 
+            // buscarCtrlBToolStripMenuItem
+            // 
+            this.buscarCtrlBToolStripMenuItem.Name = "buscarCtrlBToolStripMenuItem";
+            this.buscarCtrlBToolStripMenuItem.Size = new System.Drawing.Size(248, 22);
+            this.buscarCtrlBToolStripMenuItem.Text = "Buscar...          Ctrl+B";
+            // 
+            // buscarSiguienteF3ToolStripMenuItem
+            // 
+            this.buscarSiguienteF3ToolStripMenuItem.Name = "buscarSiguienteF3ToolStripMenuItem";
+            this.buscarSiguienteF3ToolStripMenuItem.Size = new System.Drawing.Size(248, 22);
+            this.buscarSiguienteF3ToolStripMenuItem.Text = "Buscar siguiente          F3";
+            // 
+            // buscarAnteriorMayusF3ToolStripMenuItem
+            // 
+            this.buscarAnteriorMayusF3ToolStripMenuItem.Name = "buscarAnteriorMayusF3ToolStripMenuItem";
+            this.buscarAnteriorMayusF3ToolStripMenuItem.Size = new System.Drawing.Size(248, 22);
+            this.buscarAnteriorMayusF3ToolStripMenuItem.Text = "Buscar anterior          Mayus+F3";
+            // 
+            // reemplazarCtrlRToolStripMenuItem
+            // 
+            this.reemplazarCtrlRToolStripMenuItem.Name = "reemplazarCtrlRToolStripMenuItem";
+            this.reemplazarCtrlRToolStripMenuItem.Size = new System.Drawing.Size(248, 22);
+            this.reemplazarCtrlRToolStripMenuItem.Text = "Reemplazar...          Ctrl+R";
+            // 
+            // irACtrlTToolStripMenuItem
+            // 
+            this.irACtrlTToolStripMenuItem.Name = "irACtrlTToolStripMenuItem";
+            this.irACtrlTToolStripMenuItem.Size = new System.Drawing.Size(248, 22);
+            this.irACtrlTToolStripMenuItem.Text = "Ir a...          Ctrl+T";
+            // 
+            // seleccionarTodoCtrlEToolStripMenuItem
+            // 
+            this.seleccionarTodoCtrlEToolStripMenuItem.Name = "seleccionarTodoCtrlEToolStripMenuItem";
+            this.seleccionarTodoCtrlEToolStripMenuItem.Size = new System.Drawing.Size(248, 22);
+            this.seleccionarTodoCtrlEToolStripMenuItem.Text = "Seleccionar todo          Ctrl+E";
+            // 
+            // horaYFechaF5ToolStripMenuItem
+            // 
+            this.horaYFechaF5ToolStripMenuItem.Name = "horaYFechaF5ToolStripMenuItem";
+            this.horaYFechaF5ToolStripMenuItem.Size = new System.Drawing.Size(248, 22);
+            this.horaYFechaF5ToolStripMenuItem.Text = "Hora y fecha          F5";
             // 
             // formatoToolStripMenuItem
             // 
             this.formatoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ajusteDeLineaToolStripMenuItem,
-            this.formatoToolStripMenuItem1});
+            this.fuenteToolStripMenuItem});
             this.formatoToolStripMenuItem.Name = "formatoToolStripMenuItem";
             this.formatoToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
             this.formatoToolStripMenuItem.Text = "Formato";
+            // 
+            // ajusteDeLineaToolStripMenuItem
+            // 
+            this.ajusteDeLineaToolStripMenuItem.Name = "ajusteDeLineaToolStripMenuItem";
+            this.ajusteDeLineaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ajusteDeLineaToolStripMenuItem.Text = "Ajuste de linea";
+            // 
+            // fuenteToolStripMenuItem
+            // 
+            this.fuenteToolStripMenuItem.Name = "fuenteToolStripMenuItem";
+            this.fuenteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fuenteToolStripMenuItem.Text = "Fuente";
             // 
             // verToolStripMenuItem
             // 
             this.verToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.zoomToolStripMenuItem,
-            this.barraDeEsadoToolStripMenuItem});
+            this.barraDeEstadoToolStripMenuItem});
             this.verToolStripMenuItem.Name = "verToolStripMenuItem";
             this.verToolStripMenuItem.Size = new System.Drawing.Size(35, 20);
             this.verToolStripMenuItem.Text = "Ver";
+            // 
+            // zoomToolStripMenuItem
+            // 
+            this.zoomToolStripMenuItem.Name = "zoomToolStripMenuItem";
+            this.zoomToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.zoomToolStripMenuItem.Text = "Zoom";
+            // 
+            // barraDeEstadoToolStripMenuItem
+            // 
+            this.barraDeEstadoToolStripMenuItem.Name = "barraDeEstadoToolStripMenuItem";
+            this.barraDeEstadoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.barraDeEstadoToolStripMenuItem.Text = "Barra de estado";
             // 
             // ayudaToolStripMenuItem
             // 
@@ -188,62 +300,6 @@
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
-            // 
-            // deshacerToolStripMenuItem
-            // 
-            this.deshacerToolStripMenuItem.Name = "deshacerToolStripMenuItem";
-            this.deshacerToolStripMenuItem.Size = new System.Drawing.Size(258, 22);
-            this.deshacerToolStripMenuItem.Text = "Deshacer                                  Ctrl+Z";
-            // 
-            // cortarToolStripMenuItem
-            // 
-            this.cortarToolStripMenuItem.Name = "cortarToolStripMenuItem";
-            this.cortarToolStripMenuItem.Size = new System.Drawing.Size(279, 22);
-            this.cortarToolStripMenuItem.Text = "Cortar                                       Ctrl+X";
-            this.cortarToolStripMenuItem.Click += new System.EventHandler(this.cortarToolStripMenuItem_Click);
-            // 
-            // copiarToolStripMenuItem
-            // 
-            this.copiarToolStripMenuItem.Name = "copiarToolStripMenuItem";
-            this.copiarToolStripMenuItem.Size = new System.Drawing.Size(279, 22);
-            this.copiarToolStripMenuItem.Text = "Copiar                                      Ctrl+C";
-            // 
-            // pegarToolStripMenuItem
-            // 
-            this.pegarToolStripMenuItem.Name = "pegarToolStripMenuItem";
-            this.pegarToolStripMenuItem.Size = new System.Drawing.Size(279, 22);
-            this.pegarToolStripMenuItem.Text = "Pegar                                       Ctrl+V";
-            // 
-            // eliminarToolStripMenuItem
-            // 
-            this.eliminarToolStripMenuItem.Name = "eliminarToolStripMenuItem";
-            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(268, 22);
-            this.eliminarToolStripMenuItem.Text = "Eliminar                               Ctrl+Supr";
-            this.eliminarToolStripMenuItem.Click += new System.EventHandler(this.eliminarToolStripMenuItem_Click);
-            // 
-            // ajusteDeLineaToolStripMenuItem
-            // 
-            this.ajusteDeLineaToolStripMenuItem.Name = "ajusteDeLineaToolStripMenuItem";
-            this.ajusteDeLineaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.ajusteDeLineaToolStripMenuItem.Text = "Ajuste de linea";
-            // 
-            // formatoToolStripMenuItem1
-            // 
-            this.formatoToolStripMenuItem1.Name = "formatoToolStripMenuItem1";
-            this.formatoToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.formatoToolStripMenuItem1.Text = "Formato";
-            // 
-            // zoomToolStripMenuItem
-            // 
-            this.zoomToolStripMenuItem.Name = "zoomToolStripMenuItem";
-            this.zoomToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.zoomToolStripMenuItem.Text = "Zoom";
-            // 
-            // barraDeEsadoToolStripMenuItem
-            // 
-            this.barraDeEsadoToolStripMenuItem.Name = "barraDeEsadoToolStripMenuItem";
-            this.barraDeEsadoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.barraDeEsadoToolStripMenuItem.Text = "Barra de esado";
             // 
             // verLaAyudaToolStripMenuItem
             // 
@@ -257,78 +313,11 @@
             this.enviarComentariosToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.enviarComentariosToolStripMenuItem.Text = "Enviar comentarios";
             // 
-            // configurarPáginaToolStripMenuItem
-            // 
-            this.configurarPáginaToolStripMenuItem.Name = "configurarPáginaToolStripMenuItem";
-            this.configurarPáginaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.configurarPáginaToolStripMenuItem.Text = "Configurar página...";
-            // 
-            // imprimirToolStripMenuItem
-            // 
-            this.imprimirToolStripMenuItem.Name = "imprimirToolStripMenuItem";
-            this.imprimirToolStripMenuItem.Size = new System.Drawing.Size(265, 22);
-            this.imprimirToolStripMenuItem.Text = "Imprimir...                                  Ctrl+P";
-            this.imprimirToolStripMenuItem.Click += new System.EventHandler(this.imprimirToolStripMenuItem_Click);
-            // 
-            // salirToolStripMenuItem
-            // 
-            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.salirToolStripMenuItem.Text = "Salir";
-            // 
-            // busquedaConBingToolStripMenuItem
-            // 
-            this.busquedaConBingToolStripMenuItem.Name = "busquedaConBingToolStripMenuItem";
-            this.busquedaConBingToolStripMenuItem.Size = new System.Drawing.Size(268, 22);
-            this.busquedaConBingToolStripMenuItem.Text = "Busqueda con Bing...              Ctrl+F";
-            // 
-            // buscarToolStripMenuItem
-            // 
-            this.buscarToolStripMenuItem.Name = "buscarToolStripMenuItem";
-            this.buscarToolStripMenuItem.Size = new System.Drawing.Size(268, 22);
-            this.buscarToolStripMenuItem.Text = "Buscar                                        Ctrl+B";
-            // 
-            // buscarSiguienteToolStripMenuItem
-            // 
-            this.buscarSiguienteToolStripMenuItem.Name = "buscarSiguienteToolStripMenuItem";
-            this.buscarSiguienteToolStripMenuItem.Size = new System.Drawing.Size(268, 22);
-            this.buscarSiguienteToolStripMenuItem.Text = "Buscar siguiente                                F3";
-            // 
-            // buscarAnteriorToolStripMenuItem
-            // 
-            this.buscarAnteriorToolStripMenuItem.Name = "buscarAnteriorToolStripMenuItem";
-            this.buscarAnteriorToolStripMenuItem.Size = new System.Drawing.Size(258, 22);
-            this.buscarAnteriorToolStripMenuItem.Text = "Buscar anterior           Mayus+F3";
-            // 
-            // reemplazarToolStripMenuItem
-            // 
-            this.reemplazarToolStripMenuItem.Name = "reemplazarToolStripMenuItem";
-            this.reemplazarToolStripMenuItem.Size = new System.Drawing.Size(258, 22);
-            this.reemplazarToolStripMenuItem.Text = "Reemplazar           Ctrl+R";
-            // 
-            // irAToolStripMenuItem
-            // 
-            this.irAToolStripMenuItem.Name = "irAToolStripMenuItem";
-            this.irAToolStripMenuItem.Size = new System.Drawing.Size(258, 22);
-            this.irAToolStripMenuItem.Text = "Ir a...           Ctrl+T";
-            // 
-            // seleccionarTodoToolStripMenuItem
-            // 
-            this.seleccionarTodoToolStripMenuItem.Name = "seleccionarTodoToolStripMenuItem";
-            this.seleccionarTodoToolStripMenuItem.Size = new System.Drawing.Size(258, 22);
-            this.seleccionarTodoToolStripMenuItem.Text = "Seleccionar todo           Ctrl+E";
-            // 
-            // horaYFechaToolStripMenuItem
-            // 
-            this.horaYFechaToolStripMenuItem.Name = "horaYFechaToolStripMenuItem";
-            this.horaYFechaToolStripMenuItem.Size = new System.Drawing.Size(258, 22);
-            this.horaYFechaToolStripMenuItem.Text = "Hora y fecha           F5";
-            // 
             // acercaDelBlocDeNotasToolStripMenuItem
             // 
             this.acercaDelBlocDeNotasToolStripMenuItem.Name = "acercaDelBlocDeNotasToolStripMenuItem";
             this.acercaDelBlocDeNotasToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
-            this.acercaDelBlocDeNotasToolStripMenuItem.Text = "Acerca del bloc de notas";
+            this.acercaDelBlocDeNotasToolStripMenuItem.Text = "Acerca del Bloc de notas";
             // 
             // Form1
             // 
@@ -337,8 +326,9 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "BlocNotas";
+            this.Text = "Bloc de Notas";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -348,38 +338,37 @@
 
         #endregion
 
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem abrirToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ventanaNuevaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem abrirToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem guardarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem guardarComoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem configurarPáginaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem imprimirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem nuevoCtrlNToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ventanaNuevaCtrlMayusNToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem abrirCtrlAToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem guardarCtrlGToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem guardarComoCtrlMayusSToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem configurarPaginaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem imprimirCtrlPToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem edicionToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem deshacerToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cortarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem copiarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pegarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem eliminarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem busquedaConBingToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem buscarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem buscarSiguienteToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem buscarAnteriorToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem reemplazarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem irAToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem seleccionarTodoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem horaYFechaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem verToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem zoomToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem barraDeEsadoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem deshacerCtrlZToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cortarCtrlXToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem copiarCtrlCToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pegarCtrlVToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem eliminarSuprToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem busquedaConBingCtrlFToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem buscarCtrlBToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem buscarSiguienteF3ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem buscarAnteriorMayusF3ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reemplazarCtrlRToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem irACtrlTToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem seleccionarTodoCtrlEToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem horaYFechaF5ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem formatoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ajusteDeLineaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem formatoToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem fuenteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem verToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem zoomToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem barraDeEstadoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem verLaAyudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem enviarComentariosToolStripMenuItem;

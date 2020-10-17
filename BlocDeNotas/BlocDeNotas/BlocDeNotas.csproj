@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4E0A5966-C601-4881-BC98-2343F174759E}</ProjectGuid>
+    <ProjectGuid>{DFFA7C5F-FCB4-42AF-AED3-A4EFC49FAD60}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>BlocDeNotas</RootNamespace>
     <AssemblyName>BlocDeNotas</AssemblyName>
