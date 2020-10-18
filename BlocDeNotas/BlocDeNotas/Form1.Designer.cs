@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -261,13 +262,13 @@
             // ajusteDeLineaToolStripMenuItem
             // 
             this.ajusteDeLineaToolStripMenuItem.Name = "ajusteDeLineaToolStripMenuItem";
-            this.ajusteDeLineaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ajusteDeLineaToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.ajusteDeLineaToolStripMenuItem.Text = "Ajuste de linea";
             // 
             // fuenteToolStripMenuItem
             // 
             this.fuenteToolStripMenuItem.Name = "fuenteToolStripMenuItem";
-            this.fuenteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fuenteToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.fuenteToolStripMenuItem.Text = "Fuente";
             // 
             // verToolStripMenuItem
@@ -282,13 +283,13 @@
             // zoomToolStripMenuItem
             // 
             this.zoomToolStripMenuItem.Name = "zoomToolStripMenuItem";
-            this.zoomToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.zoomToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
             this.zoomToolStripMenuItem.Text = "Zoom";
             // 
             // barraDeEstadoToolStripMenuItem
             // 
             this.barraDeEstadoToolStripMenuItem.Name = "barraDeEstadoToolStripMenuItem";
-            this.barraDeEstadoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.barraDeEstadoToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
             this.barraDeEstadoToolStripMenuItem.Text = "Barra de estado";
             // 
             // ayudaToolStripMenuItem
@@ -326,6 +327,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Bloc de Notas";
