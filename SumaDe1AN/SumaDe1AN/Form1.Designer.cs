@@ -31,9 +31,10 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.check = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.numero = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.numeric = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric)).BeginInit();
             this.SuspendLayout();
             // 
             // listBox1
@@ -47,7 +48,7 @@
             // check
             // 
             this.check.AutoSize = true;
-            this.check.Location = new System.Drawing.Point(212, 152);
+            this.check.Location = new System.Drawing.Point(212, 150);
             this.check.Name = "check";
             this.check.Size = new System.Drawing.Size(138, 17);
             this.check.TabIndex = 1;
@@ -57,50 +58,50 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(209, 118);
+            this.label1.Location = new System.Drawing.Point(209, 116);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(154, 13);
             this.label1.TabIndex = 3;
             this.label1.Text = "Calcular la suma desde 1 hasta";
             // 
-            // numero
-            // 
-            this.numero.Location = new System.Drawing.Point(388, 115);
-            this.numero.Name = "numero";
-            this.numero.Size = new System.Drawing.Size(100, 20);
-            this.numero.TabIndex = 4;
-            this.numero.TextChanged += new System.EventHandler(this.numero_TextChanged);
-            // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(463, 221);
+            this.button1.Location = new System.Drawing.Point(447, 220);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 5;
-            this.button1.Text = "button1";
+            this.button1.Text = "Convertir";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(463, 169);
+            this.textBox1.Location = new System.Drawing.Point(447, 171);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 6;
+            // 
+            // numeric
+            // 
+            this.numeric.Location = new System.Drawing.Point(447, 116);
+            this.numeric.Name = "numeric";
+            this.numeric.Size = new System.Drawing.Size(120, 20);
+            this.numeric.TabIndex = 7;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.numeric);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.numero);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.check);
             this.Controls.Add(this.listBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.numeric)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -111,9 +112,9 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.CheckBox check;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox numero;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.NumericUpDown numeric;
     }
 }
 

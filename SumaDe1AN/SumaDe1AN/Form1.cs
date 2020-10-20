@@ -23,7 +23,7 @@ namespace SumaDe1AN
             int res = 0;
             List<string> lista = new List<string>();
             int contador = 0;
-            for ( contador = 0; contador <= int.Parse(numero.Text); contador++)
+            for ( contador = 1; contador <= int.Parse(numeric.Text); contador++)
             {
                 res += contador;
                 lista.Add(res.ToString());
@@ -35,11 +35,6 @@ namespace SumaDe1AN
                 listBox1.DataSource = null;
                 listBox1.DataSource = lista;                
             }
-        }
-
-        private void numero_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
