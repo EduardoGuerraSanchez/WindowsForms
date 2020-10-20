@@ -30,13 +30,11 @@
         {
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.button4 = new System.Windows.Forms.Button();
-            this.correoNormal = new System.Windows.Forms.CheckBox();
-            this.paqueteriaNormal = new System.Windows.Forms.CheckBox();
-            this.paqueteriaUrgente = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // checkedListBox1
@@ -46,7 +44,7 @@
             "Email",
             "Teléfono",
             "Fax"});
-            this.checkedListBox1.Location = new System.Drawing.Point(19, 185);
+            this.checkedListBox1.Location = new System.Drawing.Point(19, 143);
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(120, 94);
             this.checkedListBox1.TabIndex = 7;
@@ -61,40 +59,10 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // correoNormal
-            // 
-            this.correoNormal.AutoSize = true;
-            this.correoNormal.Location = new System.Drawing.Point(19, 59);
-            this.correoNormal.Name = "correoNormal";
-            this.correoNormal.Size = new System.Drawing.Size(135, 17);
-            this.correoNormal.TabIndex = 9;
-            this.correoNormal.Text = "Correo Normal--> 2.50€";
-            this.correoNormal.UseVisualStyleBackColor = true;
-            // 
-            // paqueteriaNormal
-            // 
-            this.paqueteriaNormal.AutoSize = true;
-            this.paqueteriaNormal.Location = new System.Drawing.Point(19, 82);
-            this.paqueteriaNormal.Name = "paqueteriaNormal";
-            this.paqueteriaNormal.Size = new System.Drawing.Size(152, 17);
-            this.paqueteriaNormal.TabIndex = 10;
-            this.paqueteriaNormal.Text = "Paqueteria Normal-->3.50€";
-            this.paqueteriaNormal.UseVisualStyleBackColor = true;
-            // 
-            // paqueteriaUrgente
-            // 
-            this.paqueteriaUrgente.AutoSize = true;
-            this.paqueteriaUrgente.Location = new System.Drawing.Point(19, 105);
-            this.paqueteriaUrgente.Name = "paqueteriaUrgente";
-            this.paqueteriaUrgente.Size = new System.Drawing.Size(157, 17);
-            this.paqueteriaUrgente.TabIndex = 11;
-            this.paqueteriaUrgente.Text = "Paquetería urgente-->5.00€";
-            this.paqueteriaUrgente.UseVisualStyleBackColor = true;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(16, 153);
+            this.label1.Location = new System.Drawing.Point(16, 104);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(162, 13);
             this.label1.TabIndex = 12;
@@ -121,22 +89,33 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(16, 32);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(183, 13);
+            this.label3.Size = new System.Drawing.Size(236, 13);
             this.label3.TabIndex = 16;
-            this.label3.Text = "Selecciona una sola opción, porfavor";
+            this.label3.Text = "Selecciona como quieres que te llegue el pedido";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Correo Normal",
+            "Paquetería Normal",
+            "Paquetería Urgente"});
+            this.comboBox1.Location = new System.Drawing.Point(19, 64);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 17;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(475, 322);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.paqueteriaUrgente);
-            this.Controls.Add(this.paqueteriaNormal);
-            this.Controls.Add(this.correoNormal);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.checkedListBox1);
             this.Name = "Form1";
@@ -149,13 +128,11 @@
         #endregion
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.CheckBox correoNormal;
-        private System.Windows.Forms.CheckBox paqueteriaNormal;
-        private System.Windows.Forms.CheckBox paqueteriaUrgente;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 

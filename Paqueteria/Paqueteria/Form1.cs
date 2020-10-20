@@ -25,19 +25,25 @@ namespace Paqueteria
             float pedido = 17.80F;
             float res = 0.00F;
 
-            if (correoNormal.Checked == true)
+            if (comboBox1.SelectedIndex == 0)
             {
                 res = pedido - correoPrecio;
+
             }
-            if (paqueteriaNormal.Checked == true)
+            if (comboBox1.SelectedIndex == 1)
             {
                 res = pedido - normalPrecio;
             }
-            if (paqueteriaUrgente.Checked == true)
+            if (comboBox1.SelectedIndex== 2)
             {
                 res = pedido - urgentePrecio;
             }
             textBox1.Text = res.ToString();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
