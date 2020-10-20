@@ -36,5 +36,10 @@ namespace SumaDe1AN
                 listBox1.DataSource = lista;                
             }
         }
+
+        private void numero_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

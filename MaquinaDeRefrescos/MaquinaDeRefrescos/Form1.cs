@@ -45,5 +45,32 @@ namespace MaquinaDeRefrescos
             res = float.Parse(dinero.Text) - heineken;
             cambio.Text = res.ToString();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            float agua = 5.20F;
+            float res = 0.00F;
+
+            res = float.Parse(dinero.Text) - agua;
+            cambio.Text = res.ToString();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            float monster = 2.00F;
+            float res = 0.00F;
+
+            res = float.Parse(dinero.Text) - monster;
+            cambio.Text = res.ToString();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            float jack = 8.50F;
+            float res = 0.00F;
+
+            res = float.Parse(dinero.Text) - jack;
+            cambio.Text = res.ToString();
+        }
     }
 }
