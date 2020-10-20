@@ -54,6 +54,10 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // imageList1
@@ -98,7 +102,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(721, 172);
+            this.label2.Location = new System.Drawing.Point(740, 234);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(96, 13);
             this.label2.TabIndex = 3;
@@ -106,7 +110,7 @@
             // 
             // dinero
             // 
-            this.dinero.Location = new System.Drawing.Point(724, 207);
+            this.dinero.Location = new System.Drawing.Point(743, 270);
             this.dinero.Name = "dinero";
             this.dinero.Size = new System.Drawing.Size(100, 20);
             this.dinero.TabIndex = 4;
@@ -114,7 +118,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(724, 272);
+            this.label3.Location = new System.Drawing.Point(740, 331);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(100, 13);
             this.label3.TabIndex = 5;
@@ -132,7 +136,7 @@
             // 
             // cambio
             // 
-            this.cambio.Location = new System.Drawing.Point(724, 314);
+            this.cambio.Location = new System.Drawing.Point(743, 376);
             this.cambio.Name = "cambio";
             this.cambio.Size = new System.Drawing.Size(100, 20);
             this.cambio.TabIndex = 7;
@@ -277,11 +281,51 @@
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(702, 18);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(70, 13);
+            this.label14.TabIndex = 23;
+            this.label14.Text = "Instrucciones";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(702, 95);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(152, 13);
+            this.label15.TabIndex = 24;
+            this.label15.Text = "Paso 2: Seleccionar tu compra";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(702, 54);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(134, 13);
+            this.label16.TabIndex = 25;
+            this.label16.Text = "Paso 1: Introducir tu dinero";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(702, 146);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(209, 13);
+            this.label17.TabIndex = 26;
+            this.label17.Text = "Paso 3: Recoger tu cambio si es necesario";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(912, 549);
+            this.ClientSize = new System.Drawing.Size(925, 508);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label14);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
@@ -338,6 +382,10 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
     }
 }
 
