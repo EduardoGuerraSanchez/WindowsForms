@@ -26,13 +26,14 @@ namespace SumaDe1AN
             for ( contador = 1; contador <= int.Parse(numeric.Text); contador++)
             {
                 res += contador;
-                lista.Add(res.ToString());
+                lista.Add("Sumando" + contador + " Suma Parcial: " + res.ToString());
 
             }
+            lista.Add("El resultado final es: " + res);
 
             if (check.Checked == true)
             {
-                listBox1.DataSource = null;
+                //listBox1.DataSource = null;
                 listBox1.DataSource = lista;                
             }
         }
