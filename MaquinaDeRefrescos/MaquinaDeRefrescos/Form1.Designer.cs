@@ -350,7 +350,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.labelCocacola);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Maquina Expendedora";
             this.ResumeLayout(false);
             this.PerformLayout();
 

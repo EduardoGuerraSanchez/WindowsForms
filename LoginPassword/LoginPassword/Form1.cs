@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,7 @@ namespace LoginPassword
         public Form1()
         {
             InitializeComponent();
+
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -29,6 +31,8 @@ namespace LoginPassword
 
         private void iniciar_Click(object sender, EventArgs e)
         {
+            Form form2 = new Form2();
+            Form form3 = new Form3();
             bool log = false;
             bool pass = false;
             String login = "edu";
@@ -45,11 +49,13 @@ namespace LoginPassword
 
             if( log == true && pass == true)
             {
-                textoBienvenido.Text = "Bienvenido";
+                //textoBienvenido.Text = "Bienvenido";
+                form3.Show();
             }
             else
             {
-                textoBienvenido.Text = "Error, vuelve a introducir los datos";
+                //textoBienvenido.Text = "Error, vuelve a introducir los datos";
+                form2.Show();
             }
 
         }
