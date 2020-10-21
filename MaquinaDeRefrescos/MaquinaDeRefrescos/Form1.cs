@@ -22,10 +22,18 @@ namespace MaquinaDeRefrescos
 
             float cocacola = 1.80F;
             float res = 0.00F;
+            Form form = new Form2();
 
-            res = float.Parse(dinero.Text) - cocacola;
-            cambio.Text = res.ToString();
+            if (float.Parse(dinero.Text) < cocacola)
+            {
+                form.Show();
+            }
+            else
+            {
 
+                res = float.Parse(dinero.Text) - cocacola;
+                cambio.Text = res.ToString();
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -33,8 +41,18 @@ namespace MaquinaDeRefrescos
             float fanta = 2.40F;
             float res = 0.00F;
 
-            res = float.Parse(dinero.Text) - fanta;
-            cambio.Text = res.ToString();
+            Form form = new Form2();
+
+            if (float.Parse(dinero.Text) < fanta)
+            {
+                form.Show();
+            }
+            else
+            {
+
+                res = float.Parse(dinero.Text) - fanta;
+                cambio.Text = res.ToString();
+            }
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -42,8 +60,18 @@ namespace MaquinaDeRefrescos
             float heineken = 2.80F;
             float res = 0.00F;
 
-            res = float.Parse(dinero.Text) - heineken;
-            cambio.Text = res.ToString();
+            Form form = new Form2();
+
+            if (float.Parse(dinero.Text) < heineken)
+            {
+                form.Show();
+            }
+            else
+            {
+
+                res = float.Parse(dinero.Text) - heineken;
+                cambio.Text = res.ToString();
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -51,8 +79,18 @@ namespace MaquinaDeRefrescos
             float agua = 5.20F;
             float res = 0.00F;
 
-            res = float.Parse(dinero.Text) - agua;
-            cambio.Text = res.ToString();
+            Form form = new Form2();
+
+            if (float.Parse(dinero.Text) < agua)
+            {
+                form.Show();
+            }
+            else
+            {
+
+                res = float.Parse(dinero.Text) - agua;
+                cambio.Text = res.ToString();
+            }
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -60,8 +98,18 @@ namespace MaquinaDeRefrescos
             float monster = 2.00F;
             float res = 0.00F;
 
-            res = float.Parse(dinero.Text) - monster;
-            cambio.Text = res.ToString();
+            Form form = new Form2();
+
+            if (float.Parse(dinero.Text) < monster)
+            {
+                form.Show();
+            }
+            else
+            {
+
+                res = float.Parse(dinero.Text) - monster;
+                cambio.Text = res.ToString();
+            }
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -69,8 +117,18 @@ namespace MaquinaDeRefrescos
             float jack = 8.50F;
             float res = 0.00F;
 
-            res = float.Parse(dinero.Text) - jack;
-            cambio.Text = res.ToString();
+            Form form = new Form2();
+
+            if (float.Parse(dinero.Text) < jack)
+            {
+                form.Show();
+            }
+            else
+            {
+
+                res = float.Parse(dinero.Text) - jack;
+                cambio.Text = res.ToString();
+            }
         }
     }
 }

@@ -58,6 +58,7 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // imageList1
@@ -284,7 +285,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(702, 18);
+            this.label14.Location = new System.Drawing.Point(676, 18);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(70, 13);
             this.label14.TabIndex = 23;
@@ -293,16 +294,16 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(702, 95);
+            this.label15.Location = new System.Drawing.Point(676, 95);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(152, 13);
+            this.label15.Size = new System.Drawing.Size(177, 13);
             this.label15.TabIndex = 24;
-            this.label15.Text = "Paso 2: Seleccionar tu compra";
+            this.label15.Text = "Paso 2: Selecciona una sola bebida";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(702, 54);
+            this.label16.Location = new System.Drawing.Point(676, 54);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(134, 13);
             this.label16.TabIndex = 25;
@@ -311,17 +312,27 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(702, 146);
+            this.label17.Location = new System.Drawing.Point(676, 135);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(209, 13);
             this.label17.TabIndex = 26;
             this.label17.Text = "Paso 3: Recoger tu cambio si es necesario";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(676, 176);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(237, 13);
+            this.label18.TabIndex = 27;
+            this.label18.Text = "Si quieres otra bebida, vuelve a insertar tu dinero";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(925, 508);
+            this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
@@ -386,6 +397,7 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
     }
 }
 
