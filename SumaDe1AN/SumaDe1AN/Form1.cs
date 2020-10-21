@@ -33,7 +33,7 @@ namespace SumaDe1AN
 
             if (check.Checked == true)
             {
-                //listBox1.DataSource = null;
+                listBox1.DataSource = null;
                 listBox1.DataSource = lista;                
             }
         }
